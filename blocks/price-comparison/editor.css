@@ -1,0 +1,50 @@
+/**
+ * ShopSavvy Price Comparison — Block editor styles.
+ *
+ * Styles for the block when displayed inside the Gutenberg editor.
+ */
+
+.shopsavvy-block-preview {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 16px;
+    background: #fafafa;
+}
+
+.shopsavvy-block-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.shopsavvy-block-header code {
+    background: #e8e8e8;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+.shopsavvy-block-preview .shopsavvy-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85em;
+}
+
+.shopsavvy-block-preview .shopsavvy-table th,
+.shopsavvy-block-preview .shopsavvy-table td {
+    padding: 6px 8px;
+    text-align: left;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.shopsavvy-block-preview .shopsavvy-table thead th {
+    font-weight: 600;
+    color: #333;
+    border-bottom: 2px solid #ccc;
+}
+
+.shopsavvy-block-preview .shopsavvy-error {
+    color: #dc3232;
+    font-style: italic;
+}
